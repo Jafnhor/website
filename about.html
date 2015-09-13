@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css"/>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <title>Clément Simon - About</title>
+    </head>
+    <body>
+    
+		<script> 
+		$(function(){
+		  $("#header").load("header.html"); 
+		  $("#footer").load("footer.html"); 
+		});
+		</script> 
+				
+		<div id="header"></div>
+
+		<h2 class="aboutTitle">Skills</h2>
+        <div id="skills">
+			<h4>Languages</h4>
+   			<img class="skillsLogo" src="img/cpp.png" alt="C++ logo.">
+   			<img class="skillsLogo" src="img/java.png" alt="Java logo.">
+   			<img class="skillsLogo" src="img/uml.png" alt="UML logo.">
+   			<img class="skillsLogo" src="img/php.png" alt="PHP logo.">
+   			<img class="skillsLogo" src="img/latex.png" alt="LaTeX logo.">
+   			<img class="skillsLogo" src="img/netlogo.png" alt="Netlogo logo.">
+   			<img class="skillsLogo" src="img/qt.png" alt="Qt logo.">
+   			<img class="skillsLogo" src="img/htmlcss.png" alt="HTML/CSS logo.">
+			
+			<h4>Management</h4>
+   			<img class="skillsLogo" src="img/git.png" alt="Git logo">
+   			<a href="https://gitlab.com/"><img class="skillsLogo" src="img/gitlab.png" alt="Gitlab logo."></a>
+   			<a href="https://github.com/"><img class="skillsLogo" src="img/github.png" alt="Github logo."></a>
+   			<img class="skillsLogo" src="img/scrum.png" alt="Scrum logo">
+   		</div>
+       	<h2 class="aboutTitle">Studies</h2>
+       	<div id="studies">
+       		<h3><a href="http://www.deptinfo.univ-montp2.fr/pmwiki.php?n=Etudiants.AigleLMD4">Master AIGLE</a> at <a href="http://www.umontpellier.fr/">University of Montpellier</a></h3>
+       			<ul>
+       				<li>Software Engineering</li>
+       				<li>N-tier architectures</li>
+       				<li>Languages Objects in Static typing</li>
+       				<li>Project Management</li>
+       				<li>Compilation and interpretation</li>
+       				<li>Networks and Communication</li>
+       				<li>Agents Oriented Programming</li>
+       				<li>Advanced databases</li>
+       				<li>XML Galaxy</li>
+       				<li>Natural language processing</li>
+       			</ul>
+       			
+       		<h3><a href="http://www.deptinfo.univ-montp2.fr/pmwiki.php?n=Etudiants.LicenceLMD4">Computer science</a> at <a href="http://www.umontpellier.fr/">University of Montpellier</a></h3>
+				Three years in computer science to study bases of programmation and conception.
+		</div>
+		
+		
+		<div id="footer"></div>
+		
+		<?php include("footer.php"); ?>
+	</body>
+</html>

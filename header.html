@@ -1,0 +1,34 @@
+<header id="titleSite">
+
+	<a href="index.php"><img src="img/titleSite.png" alt="Title Site."></a>
+   
+</header>
+
+<!-- Le menu -->
+	
+<table id="menu">
+	<tr>
+		<td><a href="projects.html">Projects</a></td>
+		<td><a href="about.html">About</a></td>
+		<td><a href="exp.html">Experience</a></td>
+		<td><a href="contact.html">Contact</a></td>
+	</tr>
+</table>
+
+<script type="text/javascript">
+		// listen for scroll
+		var positionElementInPage = $('#menu').offset().top;
+		$(window).scroll(
+			function() {
+				if ($(window).scrollTop() >= positionElementInPage) {
+					// fixed
+					$('#menu').addClass("floatable");
+				} else {
+					// relative
+					$('#menu').removeClass("floatable");
+				}
+			}
+		);
+</script>
+
+

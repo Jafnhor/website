@@ -1,0 +1,182 @@
+*{
+    font-family: "Times New Roman", Times, sans-serif;
+    background-color:#EDEDFA;
+}
+a{
+    background-color: #d3d3d3;
+}
+a:link{
+    text-decoration: none;
+    color: #000000;
+}
+a:visited{
+    text-decoration: none;
+    color: #000000;
+}
+a:hover{
+    text-decoration: underline;
+    color: #000000;
+}
+
+/* Head */
+
+#titleSite{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 300%;
+	text-align: center;
+	margin: 1% 0% 2% 0%;
+	
+}
+#menu{
+    border-collapse: collapse;
+    border: 3px double black;
+	padding: 0.5%;
+	margin-bottom: 1%;
+	width: 100%;
+	text-align: center;
+    vertical-align: bottom;
+}
+td {
+    background-color: #d3d3d3;
+}
+
+#menu.floatable{
+	position: fixed;
+	width: 99%;
+	top: 0%;
+}
+
+/*Index*/
+.indexTitle{
+	margin-left:2%;
+}
+#intro{
+	margin: 0% 0% 2% 5%;
+	width: 50%;
+}
+#introWebsite{
+	margin-bottom:3%;
+}
+#introPerso{
+	margin-bottom:5%;
+}
+#profilePicture{
+	width: auto;
+	height: auto;
+	max-width: 30%;
+	float:left;
+	margin-right:1%;
+}
+
+/* Projects */
+	
+	.project{
+		text-align:left;
+	}
+
+	.logo{
+		vertical-align: middle;
+		display: inline-block;
+		width: auto;
+		height: auto;
+		max-width: 10%;
+	}
+	.text{
+		width: auto;
+		height: auto;
+		max-width: 80%;
+		vertical-align: middle;
+		display: inline-block;
+		margin: 1% 1% 1% 1%;
+		padding-left:2%;
+		border-bottom: 2px dashed #000000;
+	}
+	
+/*About*/
+.aboutTitle{
+	margin-left:2%;
+}
+#skills{
+	margin:1% 0% 1% 5%;
+}
+.skillsLogo{
+	display: inline-block;
+	width: auto;
+	height: auto;
+	max-width: 80px;
+	padding-left:3%;
+}
+
+#studies{
+	margin:1% 0% 1% 5%;
+}
+
+/*Pro*/
+
+.expTitle{
+	margin-left:2%;
+}
+
+#professional{
+	margin:1% 1% 1% 5%;
+	border-bottom: 2px dashed #000000;
+}
+
+#talks{
+	margin:1% 0% 1% 5%;
+}
+
+/*Contact*/
+#contact{
+	margin-left:3%;
+}
+#mailLogo{		
+	width: auto;
+	height: auto;
+	max-width: 25px;
+	padding-left: 0.2%;
+}
+#linkedInLogo{
+	width: auto;
+	height: auto;
+	max-width: 25px;
+	padding-left: 0.2%;
+}
+/*Footer*/
+#footSite{
+	display: inline-block;
+	background-color: #d3d3d3;
+	width: 100%;
+}
+	/*Modification*/
+	#lastModif{
+	 	float: left;
+		background-color: #d3d3d3;
+		width: 50%;
+		text-align:left;
+		font-size: small;
+	}
+	#lastModif p{ 
+		background-color: #d3d3d3;
+	}
+	/*Logos*/
+	#footLogos{	
+	 	float: right;
+		background-color: #d3d3d3;
+		width: 50%;
+		text-align:right;
+	}
+	.footLogo{
+		background-color: #d3d3d3;
+		padding-right:1%;
+		width: auto;
+		height: auto;
+		max-width: 40px;
+	}
+	#footLogoMail{
+		background-color: #d3d3d3;
+		padding-right:1%;
+		width: auto;
+		height: auto;
+		max-width: 40px;
+	}
