@@ -158,6 +158,7 @@ td {
 	}
 	#lastModif p{ 
 		background-color: #d3d3d3;
+		margin-bottom:0%;
 	}
 	/*Logos*/
 	#footLogos{	
@@ -165,6 +166,10 @@ td {
 		background-color: #d3d3d3;
 		width: 50%;
 		text-align:right;
+	}
+	#license img{
+		background-color: #d3d3d3;
+		height: 13px;
 	}
 	.footLogo{
 		background-color: #d3d3d3;
