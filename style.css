@@ -18,6 +18,19 @@ a:hover{
     color: #000000;
 }
 
+	
+.imgLicense{
+	font-size:9px;
+	color:#777878;
+	text-align:center;
+}
+.imgLicense a{
+	font-size:9px;
+	color:#777878;
+	background-color: #EDEDFA;
+	text-align:center;
+}
+
 /* Head */
 
 #titleSite{
@@ -111,7 +124,7 @@ td {
 	margin:1% 0% 1% 5%;
 }
 
-/*Pro*/
+/*Experience*/
 
 .expTitle{
 	margin-left:2%;
