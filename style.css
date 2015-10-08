@@ -35,11 +35,21 @@ a:hover{
 
 #titleSite{
     font-family: "Times New Roman", Times, serif;
+    font-style:italic;
     font-size: 300%;
 	text-align: center;
 	margin: 1% 0% 2% 0%;
 	
 }
+
+#titleSite a{
+    background-color: #EDEDFA;
+}
+
+#titleSite a:hover{
+    text-decoration: none;
+}
+
 #menu{
     border-collapse: collapse;
     border: 3px double black;
