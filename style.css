@@ -145,6 +145,11 @@ td {
 	border-bottom: 2px dashed #000000;
 }
 
+#orga{
+	border-bottom: 2px dashed #000000;
+	margin:1% 0% 1% 5%;
+}
+
 #talks{
 	margin:1% 0% 1% 5%;
 }
