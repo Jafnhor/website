@@ -213,3 +213,46 @@ td {
 		height: auto;
 		max-width: 40px;
 	}
+	
+/*For smartphone*/
+@media only screen and (max-width: 600px) {
+	/*Index*/
+	#intro{
+		margin: 0% 0% 2% 5%;
+		width: 80%;
+	}
+	#profilePicture{
+		width: auto;
+		height: auto;
+		max-width: 50%;
+		float:left;
+		margin-right:1%;
+	}
+	/*Menu*/
+	#menu.floatable{
+		position: fixed;
+		width: 95%;
+		top: 0%;
+	}
+	/*Logo projects*/
+	.logo{
+		vertical-align: top;
+		display: inline-block;
+		width: auto;
+		height: auto;
+		max-width: 30%;
+	}
+	.text{
+		width: auto;
+		height: auto;
+		max-width: 80%;
+		vertical-align: middle;
+		margin: 1% 1% 1% 1%;
+		padding-left:2%;
+		border-bottom: 2px dashed #000000;
+	}
+    /*No footer*/
+    #footSite {
+        display:none;
+    }
+}
