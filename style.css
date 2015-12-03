@@ -38,8 +38,7 @@ a:hover{
     font-style:italic;
     font-size: 300%;
 	text-align: center;
-	margin: 1% 0% 2% 0%;
-	
+	margin: 1% 0% 2% 0%;	
 }
 
 #titleSite a{
@@ -216,6 +215,14 @@ td {
 	
 /*For smartphone*/
 @media only screen and (max-width: 600px) {
+
+	#titleSite{
+		font-family: "Times New Roman", Times, serif;
+		font-style:italic;
+		font-size: 150%;
+		text-align: center;
+		margin: 1% 0% 2% 0%;	
+	}
 	/*Index*/
 	#intro{
 		margin: 0% 0% 2% 5%;
